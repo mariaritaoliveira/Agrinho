@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Sustentável</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3e5f5;
+            /* Cor de fundo suave em tons de roxo claro */
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #04065c;
+            /* Roxo escuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header input[type="text"] {
+            width: 200px;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #c5c4e9;
+            /* Roxo claro */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #281b9a;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #0e055c;
+            /* Tom de roxo mais escuro para o hover */
+        }
+
+        .container {
+            padding: 20px;
+            margin: 0 15%;
+            animation: fadeIn 1s ease-in;
+        }
+
+        .topic {
+            margin-bottom: 40px;
+            /* Aumenta o espaço entre os tópicos */
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in;
+        }
+
+        .topic h2 {
+            color: #0e055c;
+            border-bottom: 2px solid #0e055c;
+            padding-bottom: 5px;
+        }
+
+        .topic h3 {
+            color: #0e055c;
+            padding-bottom: 5px;
+        }
+
+        .topic img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #0e055c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Agricultura Sustentável</h1>
+        <input type="text" placeholder="Pesquisar...">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#agricultura-organica">Agricultura Orgânica</a></li>
+            <li><a href="#agroflorestas">Agroflorestas</a></li>
+            <li><a href="#manejo-sustentavel">Manejo Sustentável</a></li>
+            <li><a href="#tecnologias-verdes">Tecnologias Verdes</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="topic" id="agricultura-organica">
+            <h2>Agricultura Orgânica</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XdvOXTViGElsF92-eWnTHc-bfcYub2FwWTet21u4SEC3sFq_OLqKIvOF&s=10"
+                alt="Agricultura Orgânica">
+            <p>A agricultura orgânica é um sistema de produção que promove a saúde dos solos, ecossistemas e pessoas.
+                Este tipo de agricultura combina tradição, inovação e ciência para beneficiar o meio ambiente e promover
+                uma boa qualidade de vida para todos os envolvidos.</p>
+
+            <h3>Uso de Adubos Orgânicos</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkTG3wBsQbakTiOH4qU5ylLpRcU7C28gPXRg&usqp=CAU"
+                alt="Adubos Orgânicos">
+            <p>Os adubos orgânicos são compostos por materiais de origem vegetal ou animal, que fornecem nutrientes
+                essenciais às plantas de maneira sustentável. Exemplos incluem esterco, composto e restos de culturas.
+                Esses adubos ajudam a melhorar a estrutura do solo e aumentar sua fertilidade a longo prazo.</p>
+
+            <h3>Controle Biológico de Pragas</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeIXWc2RjzoDVlckdqCbkeatS5J65y2s6BCw&usqp=CAU"
+                alt="Controle Biológico de Pragas">
+            <p>O controle biológico de pragas envolve o uso de organismos vivos para controlar populações de pragas.
+                Predadores naturais, parasitoides e patógenos são utilizados para manter as pragas abaixo do nível de
+                dano econômico, minimizando o uso de pesticidas químicos.</p>
+
+            <h3>Rotação de Culturas</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjqDgb6Nc_JfMqxYR1sYcjtW0nCFXE7M1eYQpzPXGGbYs4r3-upqOBQjpd&s=10"
+                alt="Rotação de Culturas">
+            <p>A rotação de culturas é uma prática agrícola que envolve alternar diferentes tipos de culturas no mesmo
+                local em sucessão de estações. Esta técnica ajuda a reduzir a incidência de pragas e doenças, melhora a
+                estrutura do solo e aumenta a fertilidade.</p>
+
+            <h3>Certificação Orgânica</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxYIvzd7PaCF2lFeetAKfyU5AZ75xQmChC1QcoKSAmxKnYqM2aSCemWGQ&s=10"
+                alt="Certificação Orgânica">
+            <p>A certificação orgânica garante que os produtos são produzidos de acordo com normas específicas que
+                promovem a sustentabilidade ambiental e o bem-estar social. Organismos certificadores realizam inspeções
+                regulares para assegurar o cumprimento dessas normas.</p>
+        </div>
+
+        <div class="topic" id="agroflorestas">
+            <h2>Agroflorestas</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnC9oBwioOFHDi7jTFlZZwli7YKkmhjtDD7Kq-JFuVCLAOljPhVqm69G0&s=10"
+                alt="Agroflorestas">
+            <p>As agroflorestas são sistemas de uso da terra onde árvores e arbustos são cultivados em conjunto com
+                culturas agrícolas ou pecuárias. Este sistema imita as interações naturais dos ecossistemas florestais,
+                promovendo a biodiversidade e a sustentabilidade.</p>
+
+            <h3>Sistemas Agroflorestais Sucessionais</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueOB5jLqFhca0Jvbdk8OL7S76l_gY37tl1Q&usqp=CAU"
+                alt="Sistemas Agroflorestais Sucessionais">
+            <p>Os sistemas agroflorestais sucessionais são baseados nos processos naturais de sucessão ecológica, onde
+                espécies pioneiras são substituídas por espécies de estágios posteriores. Este método permite a
+                recuperação de solos degradados e aumenta a produtividade ao longo do tempo.</p>
+
+            <h3>Silvicultura Agrícola</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCteaPu7s8zrTrYcf0Og-zo95Yp2vHOn6tNUUPQDo-C-40tWYKlgZwzkg1&s=10"
+                alt="Silvicultura Agrícola">
+            <p>A silvicultura agrícola combina a produção de árvores com culturas agrícolas. Este sistema oferece
+                benefícios como a proteção contra erosão, melhoria da fertilidade do solo e diversificação de fontes de
+                renda para os agricultores.</p>
+
+            <h3>Agroecologia</h3>
+            <img src="data:image/jpeg;base64,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"
+                alt="Agroecologia">
+            <p>A agroecologia aplica princípios ecológicos ao design e manejo de sistemas agrícolas sustentáveis. Esta
+                abordagem promove a conservação dos recursos naturais, a diversidade biológica e a equidade social.</p>
+        </div>
+
+        <div class="topic" id="manejo-sustentavel">
+            <h2>Manejo Sustentável</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWelC209YAtD7vDfj_irMYxN1c3WrUIe-ag&s"
+                alt="Manejo Sustentável">
+            <p>O manejo sustentável refere-se às práticas agrícolas que visam a conservação dos recursos naturais e a
+                minimização do impacto ambiental. Este conceito abrange a gestão de solos, água, biodiversidade e
+                paisagens agrícolas de maneira holística.</p>
+
+            <h3>Conservação do Solo</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdrYIOB0hqwoTZDbYx3Ft8vlBtbo094ge2dw&usqp=CAU"
+                alt="Conservação do Solo">
+            <p>A conservação do solo envolve práticas que evitam a erosão e a degradação do solo, garantindo sua
+                fertilidade e produtividade a longo prazo. Técnicas incluem terraceamento, plantio direto e cobertura do
+                solo com palhada.</p>
+
+            <h3>Gestão Eficiente da Água</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_3RaSGwF7I-De6E4f4G1Q1ngeeMeNQWQpKsW-Hpc6Ir2CqMeDD5DSWE&s=10"
+                alt="Gestão Eficiente da Água">
+            <p>A gestão eficiente da água é crucial para a sustentabilidade agrícola. Práticas como a irrigação por
+                gotejamento, a captação de água da chuva e a reutilização de águas residuais ajudam a conservar água e
+                garantir sua disponibilidade para as culturas.</p>
+
+            <h3>Preservação da Biodiversidade</h3>
+            <div class="topic" id="tecnologias-verdes">
+                <h2>Tecnologias Verdes</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlyM3k3gLX2yBJAg-sO6Zmn-G7-5hefhGopcGcubtebE5KQpH1rMHXfz8&s=10"
+                    alt="Tecnologias Verdes">
+                <p>As tecnologias verdes são inovações que reduzem o impacto ambiental da agricultura. Essas tecnologias
+                    incluem o uso de energias renováveis, biotecnologia, agricultura de precisão e outras práticas que
+                    promovem a sustentabilidade.</p>
+
+                <h3>Energia Solar na Agricultura</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU082kfnWF0EfXR5JFd11rKNilYkft7hAXsV_jIkNQ_sPNFShmgxdmQ7fK&s=10"
+                    alt="Energia Solar na Agricultura">
+                <p>A energia solar pode ser usada para alimentar estufas, sistemas de irrigação e outras instalações
+                    agrícolas. O uso de painéis solares reduz a dependência de combustíveis fósseis e diminui a pegada
+                    de carbono das operações agrícolas.</p>
+
+                <h3>Biotecnologia para Culturas Resistentes</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl9OizoyaZdd54emm8VWVYKvsgBhQ7t9d4SZY963YK5Mev6g9mn5OZ6IE&s=10"
+                    alt="Biotecnologia para Culturas Resistentes">
+                <p>A biotecnologia permite o desenvolvimento de culturas resistentes a pragas, doenças e condições
+                    climáticas extremas. Estas culturas geneticamente modificadas podem aumentar a produtividade e
+                    reduzir a necessidade de insumos químicos.</p>
+
+                <h3>Agricultura de Precisão</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqou9eUgLXmQ_gRfKvLUV4XXAvlgfGjpHq9Q&usqp=CAU"
+                    alt="Agricultura de Precisão">
+                <p>A agricultura de precisão utiliza tecnologias como GPS, sensores e drones para monitorar e gerenciar
+                    a produção agrícola de forma precisa. Isso permite o uso eficiente de recursos e aumenta a
+                    produtividade.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Agricultura Sustentável. Todos os direitos reservados.</p>
+        </footer>
